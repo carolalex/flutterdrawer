@@ -1,5 +1,6 @@
 import 'package:appdrawer/appdrawer.dart';
 import 'package:appdrawer/bonus.dart';
+import 'package:appdrawer/contactus.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Bonuses(),
+      home: ContactUs(),
     );
   }
 }
